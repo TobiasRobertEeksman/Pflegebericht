@@ -1,0 +1,164 @@
+{
+  "MEDIKAMENTE_GEGEBEN": {
+    "label": "Medikamente gegeben",
+    "category": "Medikamente",
+    "template": "Ich habe Morris die verordneten Medikamente verabreicht und auf vollständige Einnahme geachtet.",
+    "order": 16
+  },
+  "SONDE_NAHRUNG": {
+    "label": "Nahrung per Sonde",
+    "category": "Ernährung",
+    "template": "Ich habe die Nahrung wie gewohnt über die Magensonde verabreicht und den Ablauf überwacht.",
+    "order": 12
+  },
+  "BREI_MIT_LOEFFEL": {
+    "label": "Brei mit Löffel gegeben",
+    "category": "Ernährung",
+    "template": "Ich habe Morris den Brei mit dem Löffel gegeben und auf ruhiges Schlucken sowie passende Konsistenz geachtet.",
+    "order": 10
+  },
+  "GETRAENK_WASSER": {
+    "label": "Wasser gegeben",
+    "category": "Ernährung",
+    "template": "Ich habe ihm etwas Wasser angeboten und in kleinen Schlucken gegeben.",
+    "order": 15
+  },
+  "MILCH_SONDE": {
+    "label": "Milch über Sonde",
+    "category": "Ernährung",
+    "template": "Ich habe die Milch portionsweise über die Sonde verabreicht.",
+    "order": 13
+  },
+  "ZAEHNE_GEPUTZT": {
+    "label": "Zähne geputzt",
+    "category": "Körperpflege",
+    "template": "Ich habe ihm die Zähne geputzt und den Mundraum sorgfältig gereinigt.",
+    "order": 17
+  },
+  "WINDELN_GEWECHSELT": {
+    "label": "Windeln gewechselt",
+    "category": "Körperpflege",
+    "template": "Ich habe die Windeln gewechselt und die Haut im Intimbereich sanft gereinigt.",
+    "order": 23
+  },
+  "KLEIDER_GEWECHSELT": {
+    "label": "Kleider gewechselt",
+    "category": "An- und Ausziehen",
+    "template": "Ich habe ihm frische Kleidung angezogen und auf bequemen Sitz geachtet.",
+    "order": 20
+  },
+  "KORSETT_ANGEZOGEN": {
+    "label": "Korsett angezogen",
+    "category": "Hilfsmittel",
+    "template": "Ich habe das Korsett zur Stabilisierung des Oberkörpers angelegt und die Gurte korrekt eingestellt.",
+    "order": 25
+  },
+  "KORSETT_AUSGEZOGEN": {
+    "label": "Korsett ausgezogen",
+    "category": "Hilfsmittel",
+    "template": "Ich habe das Korsett entfernt und auf eine bequeme Lagerung ohne Druckstellen geachtet.",
+    "order": 58
+  },
+  "BAD_DUSCHE_AUSFUEHRLICH": {
+    "label": "Duschen/Baden (ausführlich)",
+    "category": "Körperpflege",
+    "template": "Ich habe den Duschstuhl vorbereitet und das Badezimmer rutschsicher gemacht. Ich habe Morris in die Dusche getragen, auf den Duschstuhl gesetzt, den gesamten Körper und die Haare gründlich gewaschen, danach sorgfältig abgetrocknet, die Haut eingecremt und ihn zurück ins Bett gebracht.",
+    "order": 50
+  },
+  "BEINMASSAGE": {
+    "label": "Beinmassage",
+    "category": "Mobilisation",
+    "template": "Ich habe eine kurze Beinmassage durchgeführt, um die Durchblutung zu fördern und Verspannungen zu lösen.",
+    "order": 75
+  },
+  "URIN_FLASCHE": {
+    "label": "Urin über Flasche abgenommen",
+    "category": "Ausscheidung",
+    "template": "Ich habe Urin über die Flasche abgenommen und den Vorgang hygienisch durchgeführt.",
+    "order": 22
+  },
+  "INS_BETT_GELEGT": {
+    "label": "Ins Bett gelegt",
+    "category": "Transfer/Lagerung",
+    "template": "Ich habe ihn ins Bett gelegt und auf eine bequeme, stabile Lagerung geachtet.",
+    "order": 55
+  },
+  "INS_WOHNZIMMER_GEBRACHT": {
+    "label": "Ins Wohnzimmer gebracht",
+    "category": "Transfer",
+    "template": "Ich habe ihn ins Wohnzimmer gebracht und für eine sichere Sitzposition gesorgt.",
+    "order": 30
+  },
+  "MOBILISATION_LAUFEN": {
+    "label": "Gemeinsam gelaufen",
+    "category": "Mobilisation",
+    "template": "Wir sind gemeinsam einige Runden gelaufen; ich habe ihn gestützt und auf ruhige, kleine Schritte geachtet, um Beweglichkeit und Durchblutung zu fördern.",
+    "order": 45
+  },
+  "IN_DEN_ROLLSTUHL_GESETZT": {
+    "label": "In den Rollstuhl gesetzt",
+    "category": "Transfer",
+    "template": "Ich habe ihn in den Rollstuhl gesetzt, die Gurte korrekt fixiert und die Bremsen kontrolliert.",
+    "order": 27
+  },
+  "HOCHBEGLEITET_TREPPE": {
+    "label": "In die Wohnung hochbegleitet",
+    "category": "Transfer/Transport",
+    "template": "Ich habe ihn in die Wohnung hochbegleitet, ihn zuerst sicher ins Bett gebracht und anschliessend den Rollstuhl die Treppe hochgezogen.",
+    "order": 42
+  },
+  "AUTO_TRANSFER": {
+    "label": "Transfer ins Auto",
+    "category": "Transport",
+    "template": "Ich habe ihn zum Auto begleitet, ihn sicher umgesetzt und den Rollstuhl verladen und gesichert.",
+    "order": 34
+  },
+  "ARZTTERMIN": {
+    "label": "Arzttermin/Spitalbesuch",
+    "category": "Termine",
+    "template": "Wir waren beim Arzt/Spital (z. B. EEG). Ich habe Hin- und Rückweg organisiert, ihn begleitet und die Transfers durchgeführt.",
+    "order": 80
+  },
+  "SCHULE_TRANSPORT": {
+    "label": "Schultransport vorbereitet",
+    "category": "Alltag/Organisation",
+    "template": "Ich habe ihn für den Schultransport vorbereitet, im Rollstuhl gesichert und die Übergabe organisiert.",
+    "order": 32
+  },
+  "SCHULE_RUECKKEHR": {
+    "label": "Rückkehr von der Schule",
+    "category": "Alltag/Organisation",
+    "template": "Nach der Rückkehr habe ich ihn hochbegleitet, ihn kurz gelagert und für die weiteren Pflegeschritte vorbereitet.",
+    "order": 40
+  },
+  "MITTAGSSCHLAF": {
+    "label": "Mittagsschlaf",
+    "category": "Lagerung/Schlaf",
+    "template": "Ich habe ihn für den Mittagsschlaf ins Bett gelegt und auf eine bequeme Lagerung geachtet.",
+    "order": 36
+  },
+  "ABEND_RUHE": {
+    "label": "Für die Nacht vorbereitet",
+    "category": "Lagerung/Schlaf",
+    "template": "Ich habe ihn für die Nacht vorbereitet, die Kleidung angepasst und ihn ruhig zum Schlafen gelegt.",
+    "order": 54
+  },
+  "BEOBACHTUNG_RUHIG": {
+    "label": "Beobachtung: ruhig/zufrieden",
+    "category": "Beobachtungen",
+    "template": "Morris war ruhig und kooperativ, ohne besondere Auffälligkeiten.",
+    "order": 95
+  },
+  "BEOBACHTUNG_WENIG_APPETIT": {
+    "label": "Beobachtung: wenig Appetit",
+    "category": "Beobachtungen",
+    "template": "Heute zeigte er verminderten Appetit; ich habe die Mahlzeit entsprechend angepasst und ergänzt.",
+    "order": 96
+  },
+  "SPITEX_UEBERNIMMT": {
+    "label": "Spitex übernimmt",
+    "category": "Organisation",
+    "template": "Am Abend hat die Spitex die weitere Pflege übernommen.",
+    "order": 70
+  }
+}
