@@ -2,37 +2,37 @@
   "MEDIKAMENTE_GEGEBEN": {
     "label": "Medikamente gegeben",
     "category": "Medikamente",
-    "template": "Ich habe Morris die verordneten Medikamente verabreicht und auf vollständige Einnahme geachtet.",
+    "template": "Ich habe Morris seine Medikamente per Spritze verabreicht, die ich zuvor vorbereitet hatte",
     "order": 16
   },
   "SONDE_NAHRUNG": {
     "label": "Nahrung per Sonde",
     "category": "Ernährung",
-    "template": "Ich habe die Nahrung wie gewohnt über die Magensonde verabreicht und den Ablauf überwacht.",
+    "template": "Dann habe ich die Nahrung wie gewohnt über die Magensonde verabreicht und den Ablauf überwacht.",
     "order": 12
   },
   "BREI_MIT_LOEFFEL": {
     "label": "Brei mit Löffel gegeben",
     "category": "Ernährung",
-    "template": "Ich habe Morris den Brei mit dem Löffel gegeben und auf ruhiges Schlucken sowie passende Konsistenz geachtet.",
+    "template": "Ich habe Morris einen Breizubreitet, den ich ihm dann per Löffel gegeben habe.",
     "order": 10
   },
   "GETRAENK_WASSER": {
     "label": "Wasser gegeben",
     "category": "Ernährung",
-    "template": "Ich habe ihm etwas Wasser angeboten und in kleinen Schlucken gegeben.",
+    "template": "Ich habe ihm etwas Wasser angeboten und in kleinen Schlucken ebenfalls per Löffel gegeben.",
     "order": 15
   },
   "MILCH_SONDE": {
     "label": "Milch über Sonde",
     "category": "Ernährung",
-    "template": "Ich habe die Milch portionsweise über die Sonde verabreicht.",
+    "template": "Ich habe ihm wie gewohnt über die Sonde seine Milch gegeben.",
     "order": 13
   },
   "ZAEHNE_GEPUTZT": {
     "label": "Zähne geputzt",
     "category": "Körperpflege",
-    "template": "Ich habe ihm die Zähne geputzt und den Mundraum sorgfältig gereinigt.",
+    "template": "Dann habe ich ihm die Zähne geputzt und den Mundraum sorgfältig gereinigt.",
     "order": 17
   },
   "WINDELN_GEWECHSELT": {
@@ -44,25 +44,25 @@
   "KLEIDER_GEWECHSELT": {
     "label": "Kleider gewechselt",
     "category": "An- und Ausziehen",
-    "template": "Ich habe ihm frische Kleidung angezogen und auf bequemen Sitz geachtet.",
+    "template": "Ich habe ihm frische Kleidung angezogen.",
     "order": 20
   },
   "KORSETT_ANGEZOGEN": {
     "label": "Korsett angezogen",
     "category": "Hilfsmittel",
-    "template": "Ich habe das Korsett zur Stabilisierung des Oberkörpers angelegt und die Gurte korrekt eingestellt.",
+    "template": "Ich habe das ihm sein Korsett zur Stabilisierung des Oberkörpers angelegt.",
     "order": 25
   },
   "KORSETT_AUSGEZOGEN": {
     "label": "Korsett ausgezogen",
     "category": "Hilfsmittel",
-    "template": "Ich habe das Korsett entfernt und auf eine bequeme Lagerung ohne Druckstellen geachtet.",
+    "template": "Ich habe das Korsett entfernt.",
     "order": 58
   },
   "BAD_DUSCHE_AUSFUEHRLICH": {
     "label": "Duschen/Baden (ausführlich)",
     "category": "Körperpflege",
-    "template": "Ich habe den Duschstuhl vorbereitet und das Badezimmer rutschsicher gemacht. Ich habe Morris in die Dusche getragen, auf den Duschstuhl gesetzt, den gesamten Körper und die Haare gründlich gewaschen, danach sorgfältig abgetrocknet, die Haut eingecremt und ihn zurück ins Bett gebracht.",
+    "template": "Ich habe den Duschstuhl vorbereitet und das Badezimmer rutschsicher gemacht. Ich habe Morris in die Dusche begleitet, auf den Duschstuhl gesetzt, den gesamten Körper und die Haare gründlich gewaschen, danach sorgfältig abgetrocknet, ihn zurück zu seinem Bett gebracht und dann seine Haut eingecremed.",
     "order": 50
   },
   "BEINMASSAGE": {
@@ -74,31 +74,31 @@
   "URIN_FLASCHE": {
     "label": "Urin über Flasche abgenommen",
     "category": "Ausscheidung",
-    "template": "Ich habe Urin über die Flasche abgenommen und den Vorgang hygienisch durchgeführt.",
+    "template": "Ich habe Urin über die Flasche abgenommen.",
     "order": 22
   },
   "INS_BETT_GELEGT": {
     "label": "Ins Bett gelegt",
     "category": "Transfer/Lagerung",
-    "template": "Ich habe ihn ins Bett gelegt und auf eine bequeme, stabile Lagerung geachtet.",
+    "template": "Dann habe ich ihn ins Bett gebracht.",
     "order": 55
   },
   "INS_WOHNZIMMER_GEBRACHT": {
     "label": "Ins Wohnzimmer gebracht",
     "category": "Transfer",
-    "template": "Ich habe ihn ins Wohnzimmer gebracht und für eine sichere Sitzposition gesorgt.",
+    "template": "Ich habe ihn ins Wohnzimmer begleitet und für eine sichere Sitzposition gesorgt.",
     "order": 30
   },
   "MOBILISATION_LAUFEN": {
     "label": "Gemeinsam gelaufen",
     "category": "Mobilisation",
-    "template": "Wir sind gemeinsam einige Runden gelaufen; ich habe ihn gestützt und auf ruhige, kleine Schritte geachtet, um Beweglichkeit und Durchblutung zu fördern.",
+    "template": "Wir sind gemeinsam einige Runden gelaufen; ich habe ihn gestützt für seine Sicherheit, und auf ruhige, kleine Schritte geachtet.",
     "order": 45
   },
   "IN_DEN_ROLLSTUHL_GESETZT": {
     "label": "In den Rollstuhl gesetzt",
     "category": "Transfer",
-    "template": "Ich habe ihn in den Rollstuhl gesetzt, die Gurte korrekt fixiert und die Bremsen kontrolliert.",
+    "template": "Dann habe ich ihn in den Rollstuhl gesetzt, die Gurte korrekt fixiert und die Bremsen kontrolliert.",
     "order": 27
   },
   "HOCHBEGLEITET_TREPPE": {
@@ -110,13 +110,13 @@
   "AUTO_TRANSFER": {
     "label": "Transfer ins Auto",
     "category": "Transport",
-    "template": "Ich habe ihn zum Auto begleitet, ihn sicher umgesetzt und den Rollstuhl verladen und gesichert.",
+    "template": "Ich habe ihn zum Auto begleitet, indem wir die Treppen zusammen heruntergelaufen sind. Dann habe ich ihn sicher umgesetzt und den Rollstuhl verladen und gesichert.",
     "order": 34
   },
   "ARZTTERMIN": {
     "label": "Arzttermin/Spitalbesuch",
     "category": "Termine",
-    "template": "Wir waren beim Arzt/Spital (z. B. EEG). Ich habe Hin- und Rückweg organisiert, ihn begleitet und die Transfers durchgeführt.",
+    "template": "Wir waren beim Spital. Ich habe Hin- und Rückweg organisiert, ihn begleitet und die Transfers durchgeführt.",
     "order": 80
   },
   "SCHULE_TRANSPORT": {
@@ -128,7 +128,7 @@
   "SCHULE_RUECKKEHR": {
     "label": "Rückkehr von der Schule",
     "category": "Alltag/Organisation",
-    "template": "Nach der Rückkehr habe ich ihn hochbegleitet, ihn kurz gelagert und für die weiteren Pflegeschritte vorbereitet.",
+    "template": "Morris ist von der Schule zurück gekommen.",
     "order": 40
   },
   "MITTAGSSCHLAF": {
@@ -140,7 +140,7 @@
   "ABEND_RUHE": {
     "label": "Für die Nacht vorbereitet",
     "category": "Lagerung/Schlaf",
-    "template": "Ich habe ihn für die Nacht vorbereitet, die Kleidung angepasst und ihn ruhig zum Schlafen gelegt.",
+    "template": "Ich habe ihn für die Nacht vorbereitet, die Kleidung gewechselt und ihn ruhig zum Schlafen gelegt.",
     "order": 54
   },
   "BEOBACHTUNG_RUHIG": {
