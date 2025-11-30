@@ -1,5 +1,5 @@
 """
-Minimaler Proof-of-Concept für einen Pflegebericht-Generator (ohne Whisper)
+Minimaler Proof-of-Concept für einen Pflegebericht-Generator
 --------------------------------------------------------------------------
 - Frontend: Streamlit mit Checkbox-/Multiselect-UI
 - Backend: Direkter Aufruf der OpenAI LLM API (optional, mit Fallback ohne Key)
@@ -15,7 +15,6 @@ Hinweis:
 - Wenn kein API-Key vorhanden ist, wird ein Fallback genutzt (nur Templates zusammenfügen).
 - Dieses POC speichert nichts dauerhaft und enthält kein Whisper/Audio.
 """
-from __future__ import annotations
 import os
 import datetime as dt
 from dataclasses import dataclass
@@ -254,10 +253,10 @@ st.markdown("Wähle unten die heutigen Aufgaben pro **Abschnitt** (Morgen/Mittag
 
 # ------------------------- Abschnitte konfigurieren -------------------------
 # Anzahl der Abschnitte
-num_sections = st.number_input("Wie viele Abschnitte heute?", min_value=1, max_value=6, value=3, step=1)
+num_sections = st.number_input("Wie viele Abschnitte heute?", min_value=1, max_value=6, value=4, step=1)
 
 # Standardnamen vorschlagen
-default_names = ["Morgen", "Mittag", "Abend", "Nacht", "Spital", "Sonstiges"]
+default_names = ["Morgen", "Mittag", "Nachmittag","Abend", "Nacht", "Spital", "Sonstiges"]
 
 # Flache, einheitliche Taskliste (keine Kategorien) in stabiler Reihenfolge
 ALL_TIDS_ORDERED = get_task_order(TASK_LIBRARY)
