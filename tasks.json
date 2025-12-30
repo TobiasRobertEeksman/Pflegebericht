@@ -160,5 +160,17 @@
     "category": "Organisation",
     "template": "Am Abend hat die Spitex die weitere Pflege übernommen.",
     "order": 70
+  },
+  "AUTO_HINFAHRT": {
+    "label": "Auto Hinfahrt",
+    "category": "Mobilität",
+    "template": "Ich habe Morris ins Auto gebracht und ihn sicher angegurtet. Bei der Hinfahrt sass ich neben Morris und habe ihn gestützt und auf ihn aufgepasst.",
+    "order": 76
+  },
+  "AUTO_RUECKFAHRT": {
+    "label": "Auto Rückfahrt",
+    "category": "Mobilität",
+    "template": "Ich habe Morris ins Auto gebracht und ihn sicher angegurtet. Bei der Rückfahrt sass ich neben Morris und habe ihn gestützt und auf ihn aufgepasst.",
+    "order": 77
   }
 }
