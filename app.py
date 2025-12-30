@@ -154,17 +154,21 @@ for i in range(int(num_sections)):
         order_key = f"order_{i}"
         if order_key not in st.session_state: st.session_state[order_key] = []
         
-        # Presets Buttons
-        cp1, cp2, cp3 = st.columns([1, 1, 5])
+        # --- PRESETS & RESET BUTTONS ---
+        # Layout: [Speichern] [Laden] [ ------ Spacer ------ ] [Reset]
+        cp1, cp2, cp_space, cp3 = st.columns([1, 1, 3, 1])
+        
+        # 1. Speichern
         if cp1.button("💾 Speichern", key=f"sv_{i}"):
             sel = [t for t in st.session_state[order_key] if t in TASK_LIB]
             st.session_state.presets[sec_name] = sel
             save_json(FILES["presets"], st.session_state.presets)
             st.toast("Gespeichert!", icon="✅")
         
+        # 2. Laden
         if cp2.button("📂 Laden", key=f"ld_{i}"):
             if sec_name in st.session_state.presets:
-                # Reset selection
+                # Reset selection für diesen Abschnitt
                 for k in list(st.session_state.keys()):
                     if k.startswith(f"sel_{i}_"): del st.session_state[k]
                 # Set selection
@@ -172,6 +176,16 @@ for i in range(int(num_sections)):
                 st.session_state[order_key] = items
                 for tid in items: st.session_state[f"sel_{i}_{tid}"] = True
                 st.rerun()
+
+        # 3. Reset (Abschnitt leeren)
+        if cp3.button("🗑️ Reset", key=f"rst_{i}", help="Diesen Abschnitt leeren"):
+            # Lösche alle Auswahl-Keys für diesen Abschnitt
+            for k in list(st.session_state.keys()):
+                if k.startswith(f"sel_{i}_"): 
+                    del st.session_state[k]
+            # Leere die Reihenfolge
+            st.session_state[order_key] = []
+            st.rerun()
         
         # --- Task Buttons mit NUMMERN ---
         st.markdown("---")
@@ -212,7 +226,7 @@ st.divider()
 
 col_gen, col_rst = st.columns([1, 1])
 
-if col_gen.button("🚀 Bericht generieren", type="primary"):
+if col_gen.button("Bericht generieren", type="primary"):
     raw_blocks = []
     for sec in sections_data:
         if not sec["tasks"] and not sec["note"].strip(): continue
@@ -233,7 +247,6 @@ if col_gen.button("🚀 Bericht generieren", type="primary"):
     st.subheader("Ergebnis")
     
     # ZURÜCK ZUR ALTEN LÖSUNG: st.text_area
-    # Das garantiert korrekten Zeilenumbruch ohne CSS-Hacks.
     st.text_area("Bericht", value=res, height=400)
     
     st.download_button("Download .txt", res, f"Bericht_{date_val}.txt")
